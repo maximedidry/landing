@@ -1,0 +1,39 @@
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 auto;
+  }
+
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.blabla {
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.5;
+  color: white;
+  text-shadow: 5px, 5px, 5px, black;
+}
+
+.button-primary {
+  color: rgb(255, 255, 255);
+  background: rgb(17, 170, 70);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 25px;
+  padding: 10px 50px;
+  margin: 30px 150px;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: none;
+  transition: all 0.5s ease;
+}
+
+.button-primary:hover {
+  color: rgb(42, 183, 58);
+  background:  rgb(255, 255, 255);
+  transform:scale(1.25);
+  transition: all 0.5s ease;
+}
